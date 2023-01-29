@@ -21,7 +21,7 @@ body
 
 .card-group, .big-card 
 {
-  width: 60vmin;
+  width: 450px;
 }
 
 .card
@@ -32,7 +32,6 @@ body
 
 .big-card
 {
-  width: 60vmin;
   background: linear-gradient(135deg, #074CA6, #4B7BA3, #2D3E58, #281E33, #161020, #120817, #0E000D);
   background-size: 500% 500%;
   animation: cardBG 10s linear infinite;
@@ -43,8 +42,8 @@ body
 .little-card
 {
   background-color: rgba(0,0,0,0.5);
-  width: 56vmin;
-  height: 80vmin;
+  width: 420px;
+  height: 600px;
   border-radius: 10px;
   left: 50%;
   top: 50%;
@@ -64,9 +63,15 @@ body
 #title, #divider-one, #bio, #divider-two, #divider-three, #divider-four, h4.kingston, p.lang, p.soc
 { font-family: "Poppins"; text-align: center; color: white;}
 
+#divider-one, #divider-two, #divider-three, #divider-four
+{
+  font-size: 10px;
+  opacity: 0.3;
+}
+
 #title
 {
-  font-size: 30px;
+  font-size: 35px;
   padding-top: 10px;
 }
 
@@ -74,41 +79,27 @@ body
 {
   padding-left: 10px;;
   padding-right: 10px;
-  font-size: 11px;
+  font-size: 14px;
   color: white;
 }
 
-#divider-one, #divider-two, #divider-three, #divider-four
-{
-  font-size: 10px;
-  opacity: 0.3;
-}
-
-h4.kingston
-{
-  position: relative;
-  top: -7px;
-  font-size: 15px;
-  text-decoration: underline;
-}
 
 p.lang
 {
-  position: relative;
-  top: -13px;
   font-style: italic;
-  font-size: 11px;
+  font-size: 14px;
+  padding-top: 5px;
 }
 
 p.soc
 {
-  font-size: 12px;
+  font-size: 14px;
   padding-top: 5px;
 }
 
 .card-group:hover 
 {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
 @keyframes cardBG {
