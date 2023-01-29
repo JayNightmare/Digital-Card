@@ -78,25 +78,7 @@ body
   color: white;
 }
 
-#divider-one
-{
-  font-size: 10px;
-  opacity: 0.3;
-}
-
-#divider-two
-{
-  font-size: 10px;
-  opacity: 0.3;
-}
-
-#divider-three
-{
-  font-size: 10px;
-  opacity: 0.3;
-}
-
-#divider-four
+#divider-one, #divider-two, #divider-three, #divider-four
 {
   font-size: 10px;
   opacity: 0.3;
